@@ -45,6 +45,22 @@ header {
     cursor: pointer;
 }
 
+article{padding:20px;}
+
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* select the p tag inside the article tag on the page*/
+article p{
+    width: 80%px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /*footer rules here */
 footer{
