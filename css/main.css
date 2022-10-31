@@ -139,7 +139,23 @@ footer{
     top: 0;
     left: 0;
 
+    background-color: rgba(0, 0, 0, 0.85);
+    /* display: none; */
     
+}
+
+.lightbox_close{
+    position:relative;
+    top: 20px;
+    left: 95%;
+
+    color: white;
+    font-size: 3em;
+
+    text-decoration: none;
+
+    font-weight: bolder;
+
 }
 
 .lightbox article {
@@ -149,4 +165,11 @@ footer{
     padding-top: 50px;
 }
 
+.lb_text, .lb_heading { text-align: left;}
 
+.lb_text {
+
+line-height: 1.6 !important;
+margin-left: 0;
+padding-top: 2em;
+}
