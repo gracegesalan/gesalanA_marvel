@@ -184,3 +184,9 @@ line-height: 1.6 !important;
 margin-left: 0;
 padding-top: 2em;
 }
+
+/* turn the lightbox on using the target pseudo selector */
+
+.lightbox:target {display: block;}
+
+.lightbox_close:hover {opacity: 0.5; color: red;}
