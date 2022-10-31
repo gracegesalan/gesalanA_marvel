@@ -1,0 +1,150 @@
+/* these all apply to the body element -> global rules */
+
+* {
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.hidden { display: none; }
+
+html, body { height: 100% }
+
+body { 
+  font-family: sans-serif;
+  background-color: black;
+  color: white;
+  background-image: url('../images/denim.png');
+}
+
+/* main header rules */
+
+header {
+    background-color: red;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+#main-logo {
+    width: 300px; padding: 10px 0;  
+}
+
+/* main rules here*/
+#characters_nav{
+    text-align: center;
+    background-color: black;
+
+    background-image: url('../images/characters_art_mas_mob_01.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-blend-mode:multiply;
+} 
+
+.characters { list-style-type: none;}
+
+.characters li { 
+    display: inline-block;
+    height: 220px;
+    margin: 10px 8px;
+    background-color: rgb(0, 0, 0);
+
+    text-align: left;
+
+    cursor:crosshair;
+}
+
+.characters li h5 {
+    padding: 12px 8px;
+}
+
+.red_bumper {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(252, 10, 10);
+}
+
+article{padding:20px;}
+
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/* select the p tag inside the article tag on the page*/
+article p{
+    width: 80%px;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
+.sprite {
+    width: 150px;
+    height: 150px;
+
+    background-image: url('../images/marvelSprites.jpg');
+}
+
+.sprite:hover {background-position-y: -150px !important; }
+
+#carol {
+    background-position: -150px 0;
+}
+
+#clint {
+    background-position: -300px 0;
+}
+
+#hulk {
+    background-position: -450px 0;
+}
+
+#thor {
+    background-position: -600px 0;
+}
+
+#widow {
+    background-position: -750px 0;
+}
+
+
+
+/*footer rules here */
+footer{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+
+}
+
+.sticky_footer {
+    position: sticky;
+    top: 100%;
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+}
+
+/* lightbox goes here*/
+
+.lightbox {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    
+}
+
+.lightbox article {
+
+    width: 55%;
+    margin-left: 40%;
+    padding-top: 50px;
+}
+
