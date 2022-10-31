@@ -56,6 +56,11 @@ header {
     cursor:crosshair;
 }
 
+.red_bumper {
+    width: 100%;
+    
+}
+
 .characters li h5 {
     padding: 12px 8px;
     color: white;
