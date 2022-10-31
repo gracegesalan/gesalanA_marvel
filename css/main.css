@@ -58,7 +58,11 @@ header {
 
 .characters li h5 {
     padding: 12px 8px;
+    color: white;
+    
 }
+
+.characters li a { text-decoration: none;}
 
 .red_bumper {
     width: 100%;
